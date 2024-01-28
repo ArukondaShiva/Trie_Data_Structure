@@ -20,4 +20,15 @@ Tries are widely used in autocomplete systems to predict and suggest completions
 
 Orthographic correctors utilize Trie data structures to provide spelling suggestions and identify errors in text by referencing dictionaries, offering quick and accurate lookups.
 
+
+## Time Complexity?
+
+| Data Structure     | Structure                               | Time Complexity                    | Suitable For                                |
+|--------------------|-----------------------------------------|------------------------------------|---------------------------------------------|
+| Binary Trees       | Each node has at most two children      | O(log<sub>2</sub> n)               | Numerical or ordered data                   |
+| Quaternary Trees   | Each node has at most four children     | O(log<sub>4</sub> n)               | Numerical or ordered data                   |
+| Trie (Prefix Tree) | Tree-like structure with character nodes| O(N * avgL), where 'N' is the number of strings we want to insert in Trie and 'avgL' is the average length of 'N' strings            | String-related operations like autocomplete |
+
+
+ 
  
